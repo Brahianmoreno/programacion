@@ -1,0 +1,25 @@
+Proceso Ecuacionescuadraticas
+	Escribir "Introducir A,B,C"
+	Leer A
+	Leer B
+	Leer C
+	D<- B*B-4*A*C
+	Si (D = 0) Entonces
+		x <- -B/2*A
+		Escribir "Soluciones unicas:", x
+	Sino
+		Si (D>0) Entonces
+			X1 <- (-B + raiz(D))/2*A
+			X2 <- (-B - raiz(D))/2*A
+			Escribir "Soluciones reales"
+			Escribir "X1: ", X1
+			Escribir "X2: ", X2
+		Sino
+			XR <- -B/2*A
+			XI <- (raiz(-D))/2*A
+			Escribir "X1: ", XR, "+", X1,"i"
+			Escribir "X2: ", XR, "-", X2,"i"
+		
+		
+	Fin Si
+FinProceso
