@@ -1,0 +1,26 @@
+Proceso
+	Escribir "Ingrese A,B,C"
+	Leer A,B,C
+	Si(A<=10 Y A>=0)  Entonces
+		Si B<=10 Y c>=0 Entonces
+			Si C<=10 y C>=0 Entonces
+				Rango<-(A+B+C)/3
+		
+			
+			Fin Si
+		Sino
+			Escribir "C esta fuera de rango"
+			
+		Fin Si
+		
+	Sino
+		Escribir "B esta fuera de rango"
+		
+			
+		Sino
+			"A esta fuera de rango"
+			
+		Fin Si
+		
+	Fin Si
+FinProceso
